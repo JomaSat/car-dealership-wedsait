@@ -1,0 +1,146 @@
+@media screen and (max-width:1200px){
+    .header__inner{
+        margin: 0 5%;
+    }
+
+    .best-deals{
+        margin: 0 5%;
+    }
+
+    .rent-car{
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .best-deals__info h2{
+        font-size: 47px;
+    }
+
+    .rent-car_title h2{
+        font-size: 47px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .best-deals__info h2{
+        font-size: 40px;
+    }
+
+    .bold-span{
+        font-size: 32px;
+    }
+
+    .rent-car_title h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:576px){
+    header{
+        margin: 3% 0;
+    }
+    .header-logo{
+        margin-right: 8%;
+    } 
+
+    nav{
+        gap: 25px;
+    }
+
+    .header-btn button{
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+
+    .best-deals__info h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .best-deals__info p{
+        font-size: 30px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .buy-now{
+        font-size: 13px;
+    }
+    
+    .video-introduction{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .rent-car_title h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .cards img{
+        margin-bottom: 1%;
+    }
+
+    .card__title h6{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        text-align: center;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    .best-deals__picture{
+        top: -3%;
+    }
+
+    .best-deals__info h2{
+        font-size: 25px;
+    }
+
+    .best-deals__info p{
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .info-buttons{
+        margin: 0 auto;
+    }
+
+    .buy-now{
+        font-size: 10px;
+    }
+    
+    .video-introduction{
+        font-size: 10px;
+    }
+
+    .info-statistics span{
+        font-size: 15px;
+    }
+
+    .rent-car_title h2{
+        font-size: 25px;
+    }
+
+    .card__title h6{
+        font-size: 25px;
+    }
+}
