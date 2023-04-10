@@ -10,12 +10,10 @@
     margin: 0 auto;
     width: 100%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 
 body{
-    background: #1E1E1E;
+    background: #1e1e1e;
 }
 
 .header__inner{
@@ -175,8 +173,7 @@ nav a{
     content: url(../images/Vector\ 1.svg);
     margin-left: 15px;
 }
->>>>>>> 95bf0296c5540f695432153d67cd4da54f461366
-=======
+
 
 .Our-Other-Services {
     height: 766px;
@@ -325,4 +322,4 @@ height: 30px;
     justify-content: space-between;
     padding-top: 46px;
 }
->>>>>>> 6e9d1d9b99dff0864709ecdeeec7d40e9eb79265
+
