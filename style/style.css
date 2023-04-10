@@ -10,3 +10,151 @@
     margin: 0 auto;
     width: 100%;
 }
+
+.Our-Other-Services {
+    height: 766px;
+    background: #1E1E1E;
+}
+.info__subtitle {
+    font-family: 'Be Vietnam Pro';
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+    padding: 60px 0 66px;
+}
+.from {
+    padding: 18px 65px 6px 33px;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.sevices-car {
+    width: 384px;
+height: 360px;
+}
+.privat-harter {
+    margin: 10px;
+}
+.chauffer-driven-car-rentals {
+    margin: 10px;
+}
+.Wedding-Car-Rentals {
+    margin: 10px;
+}
+.services__subtitle {
+    font-family: 'Be Vietnam Pro';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.services__text {
+    width: 384px;
+    height: 84px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 8px;
+}
+.rentals {
+    height: 1256px;
+    background: #1E1E1E;
+}
+.line {
+    display: flex;
+    background-repeat:no-repeat;
+    justify-content: space-between;
+}
+.cards {
+    width: 384px;
+    height: 472px;
+    padding-top: 50px;
+}
+/* .popular-destination {
+    width: 384px;
+    height: 472px;
+    position: relative;
+    padding-top: 50px;
+} */
+.card {
+    width: 384px;
+height: 209px;
+background: #131313;
+border: 1px solid #171717;
+gap: 16px;
+}
+.rentals__subtitle {
+    width: 92px;
+    height: 32px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+    padding: 5px 24px;
+}
+.rentals__subtitle-info {
+    width: 591px;
+    height: 128px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    margin-left: 24%;
+    letter-spacing: 0.006em;
+    color: #FFFFFF;
+}
+.rentals__text {
+    width: 336px;
+    height: 28px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.0041em;
+    color: #FFFFFF;
+    padding: 27px 24px;
+}
+.rentals__text-bold {
+    width: 294px;
+    height: 28px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.0041em;
+    color: #FFFFFF;
+    margin-right: 42px;
+}
+.icon__car {
+    width: 30px;
+height: 30px;
+}
+.rentals__text-color {
+    width: 336px;
+    height: 28px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.0041em;
+    color: #EE8313;
+    padding: 27px 24px;
+}
+.line-1 {
+    display: flex;
+    background-repeat:no-repeat;
+    justify-content: space-between;
+    padding-top: 46px;
+}
