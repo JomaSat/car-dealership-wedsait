@@ -166,9 +166,12 @@
         .carb-citi {
             width: 290px;
         }
-        .card {
+        .cart {
             width: 293px;
-}
+        }
+        .carts {
+            width: 293px;
+        }
 .carb {
     width: 290px;
 }
@@ -193,9 +196,9 @@
     }
     .carb-citi {
         width: 240px;
-        margin-left: 1%;
+        margin-left: 16%;
     }
-    .card {
+    .cart {
         width: 240px;
     }
     .rentals__text {
@@ -218,9 +221,13 @@
     .line {
         grid-template-columns: 1fr 1fr;
     }
-    .card {
+    .cart {
         width: 247px;
         margin-left: 68px;
+    }
+    .carts {
+        width: 247px;
+        margin-left: 100px;
     }
     .carb {
         width: 247px;
@@ -247,6 +254,10 @@
     }
     .Our-Other-Services {
         height: 1366px;
+    }
+    .cart {
+        width: 193px;
+        margin-left: 59px;
     }
     .sevices-car {
         width: 240px;
@@ -295,9 +306,13 @@
     .cards {
         width: 308px;
     }
-    .card {
-    margin-left: 60px;
-    width: 186px;
+    .carb-citi {
+        width: 186px;
+        margin-left: -31px;
+    }
+    .carts {
+        margin-left: 84px;
+        width: 186px;
     }
     .carb {
     width: 186px;
@@ -306,9 +321,9 @@
 }
 @media screen and (max-width:576px)  {
     .rentals__subtitle-info {
-        width: 298px;
-        font-size: 26px;
-        margin-left: 12%;
+        width: 458px;
+        font-size: 44px;
+        margin-left: 0%;
     }
     .line {
         grid-template-columns: 1fr;
@@ -320,8 +335,16 @@
         width: 300px;
         text-align: center;
     }
-    .card {
-            margin-left: 19%;
+    .carb-citi {
+        width: 186px;
+        margin-left: -77px;
+    }
+    .cart {
+        margin-left: 19%;
+        width: 192px;
+    }
+    .carts {
+        margin-left: 16%;
     }
     .carbs {
         margin-left: 12%;

@@ -255,7 +255,14 @@ height: 360px;
     position: relative;
     padding-top: 50px;
 } */
-.card {
+.cart {
+    width: 384px;
+height: 209px;
+background: #131313;
+border: 1px solid #171717;
+gap: 16px;
+}
+.carts {
     width: 384px;
 height: 209px;
 background: #131313;
