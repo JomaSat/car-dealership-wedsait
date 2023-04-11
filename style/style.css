@@ -219,7 +219,6 @@ height: 360px;
     margin-top: 8px;
 }
 .services__text {
-    width: 384px;
     height: 84px;
     font-family: 'Be Vietnam Pro';
     font-weight: 400;
@@ -228,15 +227,17 @@ height: 360px;
     color: #FFFFFF;
     opacity: 0.8;
     margin-top: 8px;
+    text-align: center;
 }
 .rentals {
     height: 1256px;
     background: #1E1E1E;
 }
 .line {
-    display: flex;
+    display: grid;
     background-repeat:no-repeat;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-between; */
 }
 .cards {
     width: 384px;
@@ -255,6 +256,13 @@ height: 209px;
 background: #131313;
 border: 1px solid #171717;
 gap: 16px;
+}
+.carb {
+    width: 384px;
+    height: 209px;
+    background: #131313;
+    border: 1px solid #171717;
+    gap: 16px;
 }
 .rentals__subtitle {
     width: 92px;
@@ -316,6 +324,7 @@ height: 30px;
     color: #EE8313;
     padding: 27px 24px;
 }
+<<<<<<< HEAD
 .line-1 {
     display: flex;
     background-repeat:no-repeat;
@@ -323,3 +332,8 @@ height: 30px;
     padding-top: 46px;
 }
 
+=======
+.card-citi {
+    padding-top: 50px;
+}
+>>>>>>> 0c13d9d4463dd57bf13212aab0be834dcbd3e48b

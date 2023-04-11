@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width:1200px){
     .header__inner{
         margin: 0 5%;
@@ -144,3 +145,181 @@
         font-size: 25px;
     }
 }
+=======
+@media screen and (max-width:1200px) {
+    .sevices-car {
+        width: 304px;
+        height: 295px;
+    }
+    .services__text {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .services__subtitle {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+    }
+        .card-citi {
+            width: 290px;
+        }
+        .card {
+            width: 293px;
+}
+.carb {
+    width: 290px;
+}
+@media screen and (max-width:996px) {
+    .sevices-car {
+        width: 240px;
+        height: 240px;
+    }
+    .services__subtitle {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .services__text {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .card-citi {
+        width: 240px;
+    }
+    .card {
+        width: 240px;
+    }
+    .rentals__text {
+        font-size: 14px;
+        padding: 26px 0px;
+    }    
+    .rentals__text-bold {
+    width: 115px;
+    height: 28px;
+    margin-right: 0px;
+    font-size: 13px;
+    }
+
+    .rentals__text-color {
+    padding: 25px 1px;
+    }
+    .rentals__subtitle-info {
+        margin-left: 10%;
+    }
+    .line {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        width: 247px;
+        margin-left: 68px;
+    }
+    .carb {
+        width: 247px;
+        margin-left: 68px;
+    }
+    .popular-destination {
+        text-align: center;
+    }
+    .rentals__text {
+        width: 235px;
+    }
+    .rentals__text-color {
+        width: 236px;
+    }
+    .rentals {
+        height: 1570px;
+    }
+}
+}
+@media screen and (max-width:769px) {
+    .services {
+        text-align: center;
+        display: inline;
+    }
+    .Our-Other-Services {
+        height: 1366px;
+    }
+    .sevices-car {
+        width: 240px;
+        height: 211px;
+    }
+    .services__text {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    .services__subtitle {
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .rentals__subtitle-info {
+        margin-left: 0%;
+    }
+    .card-citi {
+        width: 186px;
+    }
+    .rentals__text {
+        font-size: 11px;
+        padding: 26px 0px;
+        width: 181px;
+    }
+    .rentals__subtitle {
+        padding: 5px 8px;
+    }
+    .from {
+        padding: 17px 32px 3px 5px;
+    }
+    .rentals__text-color {
+        width: 181px;
+        font-size: 11px;
+    }
+    .line {
+        grid-template-columns: 1fr 1fr;
+    } 
+    .cards {
+        width: 308px;
+    }
+    .card {
+    margin-left: 60px;
+    width: 186px;
+    }
+    .carb {
+    width: 186px;
+    margin-left: 60px;
+    }
+}
+@media screen and (max-width:576px)  {
+    .rentals__subtitle-info {
+        width: 298px;
+        font-size: 26px;
+        margin-left: 12%;
+    }
+    .line {
+        grid-template-columns: 1fr;
+        margin-left: 12%;
+        height: 357px;
+    }
+
+    .cards {
+        width: 300px;
+        text-align: center;
+    }
+    .card {
+            margin-left: 19%;
+    }
+    .rentals__text {
+        width: 180px;
+    }
+    .rentals__text-color {
+        width: 176px;
+    }
+    .rentals {
+        height: 3001px;
+    }
+}
+
+>>>>>>> 0c13d9d4463dd57bf13212aab0be834dcbd3e48b
