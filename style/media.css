@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @media screen and (max-width:1200px){
     .header__inner{
         margin: 0 5%;
@@ -145,7 +145,6 @@
         font-size: 25px;
     }
 }
-=======
 @media screen and (max-width:1200px) {
     .sevices-car {
         width: 304px;
@@ -162,6 +161,9 @@
         justify-content: center;
     }
         .card-citi {
+            width: 290px;
+        }
+        .carb-citi {
             width: 290px;
         }
         .card {
@@ -187,6 +189,11 @@
     }
     .card-citi {
         width: 240px;
+        margin-left: 20%;
+    }
+    .carb-citi {
+        width: 240px;
+        margin-left: 1%;
     }
     .card {
         width: 240px;
@@ -261,6 +268,11 @@
     }
     .card-citi {
         width: 186px;
+        margin-left: 20%;
+    }
+    .carb-citi {
+        width: 186px;
+        margin-left: -75px;
     }
     .rentals__text {
         font-size: 11px;
@@ -311,6 +323,9 @@
     .card {
             margin-left: 19%;
     }
+    .carbs {
+        margin-left: 12%;
+    }
     .rentals__text {
         width: 180px;
     }
@@ -322,4 +337,4 @@
     }
 }
 
->>>>>>> 0c13d9d4463dd57bf13212aab0be834dcbd3e48b
+
