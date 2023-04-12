@@ -34,7 +34,9 @@ nav{
     display: flex;
     gap: 40px;
 }
-
+a:hover {
+    color: #EE8313;
+}
 nav a{
     color: #FFFFFF;
     text-decoration: none;
@@ -47,6 +49,10 @@ nav a{
     padding: 10px 25px;
     font-size: 16px;
     cursor: pointer;
+}
+button:hover {
+    background: #EE8313;
+    color: #FFFFFF;
 }
 
 .best-deals{
