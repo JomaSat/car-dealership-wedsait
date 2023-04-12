@@ -8,6 +8,15 @@
         justify-content: center;
         font-size: 14px;
     }
+    .rentals__subtitle-info {
+        text-align: center;
+    }
+    .line {
+    margin-left: 3%;
+    }
+    .line-2 {
+        margin-left: 3%;
+        }
     .services__subtitle {
         font-size: 22px;
         display: flex;
@@ -15,13 +24,14 @@
     }
         .card-citi {
             width: 290px;
+            height: 200px;
         }
-        .card {
+        .cart {
             width: 293px;
-}
-.carb {
-    width: 290px;
-}
+        }
+        .carts {
+            width: 293px;
+        }
 @media screen and (max-width:996px) {
     .sevices-car {
         width: 240px;
@@ -39,8 +49,9 @@
     }
     .card-citi {
         width: 240px;
+        height: 160px;
     }
-    .card {
+    .cart {
         width: 240px;
     }
     .rentals__text {
@@ -57,22 +68,11 @@
     .rentals__text-color {
     padding: 25px 1px;
     }
-    .rentals__subtitle-info {
-        margin-left: 10%;
-    }
-    .line {
-        grid-template-columns: 1fr 1fr;
-    }
-    .card {
+    .cart {
         width: 247px;
-        margin-left: 68px;
     }
-    .carb {
+    .carts {
         width: 247px;
-        margin-left: 68px;
-    }
-    .popular-destination {
-        text-align: center;
     }
     .rentals__text {
         width: 235px;
@@ -91,7 +91,10 @@
         display: inline;
     }
     .Our-Other-Services {
-        height: 1366px;
+        height: 1263px;
+    }
+    .cart {
+        width: 193px;
     }
     .sevices-car {
         width: 240px;
@@ -109,7 +112,7 @@
         justify-content: center;
     }
     .rentals__subtitle-info {
-        margin-left: 0%;
+        text-align: center;
     }
     .card-citi {
         width: 186px;
@@ -135,33 +138,38 @@
     .cards {
         width: 308px;
     }
-    .card {
-    margin-left: 60px;
-    width: 186px;
+    .carb-citi {
+        width: 186px;
     }
-    .carb {
-    width: 186px;
-    margin-left: 60px;
+    .carts {
+        width: 186px;
     }
 }
 @media screen and (max-width:576px)  {
     .rentals__subtitle-info {
-        width: 298px;
-        font-size: 26px;
-        margin-left: 12%;
+        width: 458px;
+        font-size: 44px;
+        margin-left: 0%;
     }
     .line {
+        display: grid;
         grid-template-columns: 1fr;
-        margin-left: 12%;
-        height: 357px;
     }
-
+    .line-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .cards {
         width: 300px;
-        text-align: center;
     }
-    .card {
-            margin-left: 19%;
+    .cards {
+        margin-left: 26%;
+    }
+    .card-citi {
+        width: 240px;
+    }
+    .cart {
+        width: 240px;
     }
     .rentals__text {
         width: 180px;
@@ -173,4 +181,23 @@
         height: 3001px;
     }
 }
-
+@media screen and (max-width:320px) {
+     .rentals__subtitle-info {
+        width: 334px;
+        font-size: 24px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .cards {
+        margin-left: 13%;
+    }
+    .Our-Other-Services {
+        height: 1351px;
+    }
+    .line {
+        margin-left: 0%;
+        }
+    .line-2 {
+        margin-left: 0%;
+        }
+}

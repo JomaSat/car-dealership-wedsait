@@ -32,6 +32,7 @@
 .services {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .sevices-car {
     width: 384px;
@@ -70,10 +71,18 @@ height: 360px;
     background: #1E1E1E;
 }
 .line {
-    display: grid;
+    /* display: grid;
     background-repeat:no-repeat;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+}
+.line-2 {
+    /* display: grid;
+    background-repeat:no-repeat;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
 }
 .cards {
     width: 384px;
@@ -86,20 +95,14 @@ height: 360px;
     position: relative;
     padding-top: 50px;
 } */
-.card {
+.cart {
     width: 384px;
 height: 209px;
 background: #131313;
 border: 1px solid #171717;
-gap: 16px;
+/* gap: 16px; */
 }
-.carb {
-    width: 384px;
-    height: 209px;
-    background: #131313;
-    border: 1px solid #171717;
-    gap: 16px;
-}
+
 .rentals__subtitle {
     width: 92px;
     height: 32px;
@@ -119,7 +122,6 @@ gap: 16px;
     font-weight: 700;
     font-size: 52px;
     text-align: center;
-    margin-left: 24%;
     letter-spacing: 0.006em;
     color: #FFFFFF;
 }
@@ -160,6 +162,14 @@ height: 30px;
     color: #EE8313;
     padding: 27px 24px;
 }
+
+.line-1 {
+    display: flex;
+    background-repeat:no-repeat;
+    justify-content: space-between;
+    padding-top: 46px;
+}
 .card-citi {
-    padding-top: 50px;
+    width: 384px;
+    height: 256px;
 }
