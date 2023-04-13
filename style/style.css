@@ -348,3 +348,86 @@ height: 30px;
     width: 91%;
     height: 200px;
 } */
+a {
+    text-decoration: none;
+    line-height: 32px;
+    font-size: 16px;
+    
+}
+li {
+    list-style: none;
+    font-size: 12px;
+    width: 133px;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 377px;
+}
+.footer__left {
+    padding-bottom:2%;
+}
+.footer {
+    height: 377px;
+    background: #1F1905;
+}
+.logops {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 77px;
+}
+.tetx {
+    width: 235px;
+    height: 64px;
+    color: #fff;
+    font-size: 18px;
+}
+.footer__text {
+    font-family: 'Be Vietnam Pro';
+}
+.footer-left {
+    display: flex;
+}
+a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.footer__right {
+    width: 646px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.block-1 {
+    color: #fff;
+    width: 90px;
+    height: 168px;
+}
+.block-2 {
+    color: #fff;
+    width: 90px;
+    height: 168px;
+}
+.block-3 {
+    color: #fff;
+    width: 90px;
+    height: 168px;
+}
+
+.list__text {
+    padding-bottom: 40px;
+}
+.footer__part-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    background: #EE8313;
+    right: 50px;
+}
+
