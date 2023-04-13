@@ -147,8 +147,8 @@
 }
 @media screen and (max-width:1200px) {
     .sevices-car {
-        width: 304px;
-        height: 295px;
+        width: 98%;
+        height: 60%;
     }
     .services__text {
         display: flex;
@@ -169,25 +169,38 @@
         display: flex;
         justify-content: center;
     }
-        .card-citi {
-            width: 290px;
-            height: 200px;
-        }
-        .cart {
+    .card-citi {
+        width: 99%;
+        height: 200px;
+    }
+    .cards {
+        width: 32%;
+        height: 472px;
+        padding-top: 50px;
+        margin: 7px;
+    }
+        /* .cart {
             width: 293px;
-        }
+        } */
         .carts {
             width: 293px;
         }
 @media screen and (max-width:996px) {
     .sevices-car {
-        width: 240px;
-        height: 240px;
+        width: 96%;
+        height: 69%;
     }
     .services__subtitle {
         font-size: 18px;
         display: flex;
         justify-content: center;
+    }
+    .services {
+        display: flex;
+        /* justify-content: space-between; */
+        text-align: center;
+        gap: 13px;
+        margin-left: 2%;
     }
     .services__text {
         display: flex;
@@ -195,12 +208,12 @@
         font-size: 12px;
     }
     .card-citi {
-        width: 240px;
+        /* width: 240px; */
         height: 160px;
     }
-    .cart {
+    /* .cart {
         width: 240px;
-    }
+    } */
     .rentals__text {
         font-size: 14px;
         padding: 26px 0px;
@@ -215,9 +228,9 @@
     .rentals__text-color {
     padding: 25px 1px;
     }
-    .cart {
+    /* .cart {
         width: 247px;
-    }
+    } */
     .carts {
         width: 247px;
     }
@@ -238,94 +251,150 @@
         display: inline;
     }
     .Our-Other-Services {
-        height: 1263px;
-    }
+        height: 100%;
+    }    
     .cart {
-        width: 193px;
+        /* width: 601px; */
+        height: 367px;
+    }
+    .privat-harter {
+        margin: 21px;
+    }
+    .chauffer-driven-car-rentals {
+        margin: 21px;
+    }
+    .Wedding-Car-Rentals {
+        margin: 21px;
     }
     .sevices-car {
-        width: 240px;
-        height: 211px;
+        width: 102%;
+        height: 1%;
     }
     .services__text {
         font-size: 12px;
         display: flex;
         justify-content: center;
     }
-    .services__subtitle {
-        font-size: 18px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
+    .rentals__text {
+        width: 377px;
+    font-size: 22px;
+    padding: 75px 0px 24px 15px;
+    }
+    .rentals__text-bold {
+        width: 290px;
+        height: 28px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .rentals__subtitle {
+        padding: 5px 8px;
+        font-size: 44px;
     }
     .rentals__subtitle-info {
-        text-align: center;
+        margin-left: 9%;
     }
     .card-citi {
         width: 186px;
     }
-    .rentals__text {
-        font-size: 11px;
-        padding: 26px 0px;
-        width: 181px;
+    .services__text {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
     }
     .rentals__subtitle {
         padding: 5px 8px;
     }
     .from {
-        padding: 17px 32px 3px 5px;
+        padding: 70px 45px 46px 19px;
     }
     .rentals__text-color {
-        width: 181px;
-        font-size: 11px;
+        width: 330px;
+        font-size: 22px;
+        padding: 13px;
     }
     .line {
-        grid-template-columns: 1fr 1fr;
-    } 
-    .cards {
-        width: 308px;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 3001px;
+        margin-left: 2%;
     }
-    .carb-citi {
-        width: 186px;
+    .line-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 3001px;
+        margin-left: 2%;
+    }
+    .cards {
+        width: 99%;
+    }
+    .card-citi {
+        width: 100%;
+        height: 1%;
     }
     .carts {
         width: 186px;
     }
+    .rentals {
+        height: 100%;
+        padding-top: 24%;
+    }
 }
+
 @media screen and (max-width:576px)  {
     .rentals__subtitle-info {
-        width: 458px;
-        font-size: 44px;
+        width: 364px;
+        font-size: 35px;
         margin-left: 0%;
     }
     .line {
         display: grid;
         grid-template-columns: 1fr;
+        height: 2600px;
+        margin-left: -31%;
     }
     .line-2 {
         display: grid;
         grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 2600px;
+        margin-left: -31%;
+    }
+    .sevices-car {
+        width: 103%;
+        height: 8%;
+    }
+    .services__text {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+    }
+    .Our-Other-Services {
+        height: 100%;
     }
     .cards {
-        width: 300px;
+        width: 63%;
     }
     .cards {
         margin-left: 26%;
     }
     .card-citi {
-        width: 240px;
+        width: 117%;
+        height: 1%;
     }
     .cart {
-        width: 240px;
+        width: 117%;
+        height: 334px;
     }
     .rentals__text {
-        width: 180px;
+        width: 365px;
+        font-size: 20px;
     }
     .rentals__text-color {
-        width: 176px;
+        width: 341px;
     }
     .rentals {
-        height: 3001px;
+        height: 100%;
     }
 }
 @media screen and (max-width:320px) {
@@ -336,10 +405,28 @@
         text-align: center;
     }
     .cards {
-        margin-left: 13%;
+        margin-left: 3%;
+        width: 64%;
+    }
+    .privat-harter {
+        margin: 9px;
+    }
+    .chauffer-driven-car-rentals {
+    margin: 9px;
+    }
+    .Wedding-Car-Rentals {
+        margin: 9px;
+    }
+    .rentals__text-color {
+        width: 341px;
+        font-size: 18px;
+    }
+    .rentals__text {
+        width: 365px;
+        font-size: 17px;
     }
     .Our-Other-Services {
-        height: 1351px;
+        height: 100%;
     }
     .line {
         margin-left: 0%;

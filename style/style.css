@@ -203,20 +203,21 @@ button:hover {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 14px;
 }
 .sevices-car {
-    width: 384px;
-height: 360px;
+    width: 98%;
+    height: 295px;
 }
-.privat-harter {
-    margin: 10px;
+/* .privat-harter {
+    margin: 46px;
 }
 .chauffer-driven-car-rentals {
-    margin: 10px;
+    margin: 46px;
 }
 .Wedding-Car-Rentals {
-    margin: 10px;
-}
+    margin: 46px;
+} */
 .services__subtitle {
     font-family: 'Be Vietnam Pro';
     font-weight: 700;
@@ -255,9 +256,13 @@ height: 360px;
     justify-content: space-between;
 }
 .cards {
-    width: 384px;
+    width: 28%;
     height: 472px;
     padding-top: 50px;
+    margin: 32px;
+}
+.card-citi {
+    width: 100%;
 }
 /* .popular-destination {
     width: 384px;
@@ -266,8 +271,8 @@ height: 360px;
     padding-top: 50px;
 } */
 .cart {
-    width: 384px;
-height: 209px;
+    /* width: 384px;
+height: 209px; */
 background: #131313;
 border: 1px solid #171717;
 /* gap: 16px; */
@@ -339,7 +344,7 @@ height: 30px;
     justify-content: space-between;
     padding-top: 46px;
 }
-.card-citi {
-    width: 384px;
-    height: 256px;
-}
+/* .card-citi {
+    width: 91%;
+    height: 200px;
+} */
