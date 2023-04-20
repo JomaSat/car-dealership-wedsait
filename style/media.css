@@ -98,10 +98,10 @@
     nav{
         display: flex;
         flex-direction: column;
-        gap: 7px;
+        gap: 1px;
         text-align: center;
     }
-
+    
     nav a{
         font-size: 12px;
     }
@@ -342,9 +342,9 @@
 
 @media screen and (max-width:576px)  {
     .rentals__subtitle-info {
-        width: 364px;
-        font-size: 35px;
-        margin-left: 0%;
+        width: 453px;
+        font-size: 43px;
+        margin: 50px auto;
     }
     .line {
         display: grid;
@@ -429,9 +429,11 @@
         height: 100%;
     }
     .line {
-        margin-left: 0%;
-        }
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1739px;        }
     .line-2 {
-        margin-left: 0%;
-        }
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1739px;        }
 }
